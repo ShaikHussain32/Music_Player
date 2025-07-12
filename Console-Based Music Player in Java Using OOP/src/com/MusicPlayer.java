@@ -87,9 +87,14 @@ public class MusicPlayer {
 		//get all songs in the playlist 
 		public void getPlayList(String playlistname) {
 			
+			
+			
 			int i=0;
 			
 			for(PlaylistClass p:playlists) {
+				
+				
+				
 				if(p.getPlayListName().equals(playlistname)) {
 					System.out.println("songs in the playlist "+ playlistname);
 					p.displaySongs();
