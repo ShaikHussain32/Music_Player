@@ -46,22 +46,6 @@ public class MusicPlayer {
 		}
 	}
 	
-//	//update Song in playlist
-//		public void updateSonginplaylist(String title,Song newSong,String playlistName) {
-//			
-//			for(PlaylistClass p:playlists)
-//			{
-//				if(p.getPlayListName().equals(playlistName))
-//				{
-//					p.
-//				}
-//				
-//			}
-//			
-//			
-//		}
-	
-	
 	
 	// create a  playlist 
 	

@@ -24,20 +24,6 @@ public class PlaylistClass implements Playable {
 		this.songs = songs;
 	}
 	
-	
-
-
-//	public int getPlayListId() {
-//		return playListId;
-//	}
-
-
-
-//	public void setPlayListId(int playListId) {
-//		this.playListId = playListId;
-//	}
-
-
 
 	public String getPlayListName() {
 		return playListName;
@@ -86,6 +72,10 @@ public class PlaylistClass implements Playable {
 	
 	public void displaySongs() {
 		
+		if(songs.size()==0)
+		{
+			System.out.println("Playlist is empty ");
+		}
 		for(Song s:songs) {
 			System.out.println(s.getTitle());
 		}
